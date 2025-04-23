@@ -18,13 +18,14 @@
     max-width: 1200px;
     margin: auto;
   }
-  
+  @media (max-width: 768px) {
   .project-card {
     background-color: #1a1a2e;
     border-radius: 12px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
     transition: transform 0.3s ease;
+    padding:16px;
   }
   
   .project-card:hover {
@@ -48,6 +49,7 @@
   .project-description {
     margin: 10px 0;
     color: #ccc;
+    font-size: 1rem;
   }
   
   .project-tech {
@@ -71,5 +73,6 @@
     margin-right: 15px;
     text-decoration: underline;
     font-weight: 500;
+  }
   }
   
