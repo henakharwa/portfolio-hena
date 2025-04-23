@@ -1,0 +1,45 @@
+.home-container {
+    background-color: #000;
+  color: white;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px; /* prevents overlap with footer */
+  }
+  
+  .home-content {
+    text-align: center;
+  }
+  
+  .home-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .home-content p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  
+  .highlight {
+    color: #ffc300;
+  }
+  
+  /* Animation */
+  @keyframes fadeSlideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animated-text {
+    display: inline-block;
+    animation: fadeSlideUp 2s ease-out;
+  }
+  
