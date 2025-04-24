@@ -1,32 +1,28 @@
+// Navbar.js
 import React, { useState } from 'react';
-import { Link } from 'react-scroll'; // If you're using scroll links
 import './Navbar.css';
 
 const Navbar = () => {
-  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  const handleToggle = () => {
-    setMobileMenuOpen(!isMobileMenuOpen);
-  };
-
-  const handleLinkClick = () => {
-    setMobileMenuOpen(false); // close menu after click
-  };
+  const [open, setOpen] = useState(false);
 
   return (
     <nav className="navbar">
-      <div className="navbar-logo">Hena Kharwa</div>
-      <div className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
-        <Link to="home" smooth duration={500} onClick={handleLinkClick}>Home</Link>
-        <Link to="about" smooth duration={500} onClick={handleLinkClick}>About</Link>
-        <Link to="experience" smooth duration={500} onClick={handleLinkClick}>Experience</Link>
-        <Link to="leadership" smooth duration={500} onClick={handleLinkClick}>Leadership</Link>
-        <Link to="projects" smooth duration={500} onClick={handleLinkClick}>Projects</Link>
-        <Link to="contact" smooth duration={500} onClick={handleLinkClick}>Contact</Link>
+      <h2 className="logo">Hena Kharwa</h2>
+
+      <div className="hamburger" onClick={() => setOpen(!open)}>
+        <div className="bar" />
+        <div className="bar" />
+        <div className="bar" />
       </div>
-      <div className="hamburger" onClick={handleToggle}>
-        ☰
-      </div>
+
+      <ul className={`nav-links ${open ? 'active' : ''}`}>
+        <li><a href="#home" onClick={() => setOpen(false)}>Home</a></li>
+        <li><a href="#about" onClick={() => setOpen(false)}>About</a></li>
+        <li><a href="#experience" onClick={() => setOpen(false)}>Experience</a></li>
+        <li><a href="#projects" onClick={() => setOpen(false)}>Projects</a></li>
+        <li><a href="#leadership" onClick={() => setOpen(false)}>Leadership</a></li>
+        <li><a href="#contact" onClick={() => setOpen(false)}>Contact</a></li>
+      </ul>
     </nav>
   );
 };
