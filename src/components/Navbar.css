@@ -1,58 +1,71 @@
+/* Navbar.css */
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background: #000;
-  padding: 20px 40px;
-  position: sticky;
-  top: 0;
-  z-index: 10;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: relative;
 }
 
-.navbar-logo {
-  font-size: 1.6rem;
-  color: #ffc300;
+.logo {
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .nav-links {
   display: flex;
-  gap: 25px;
+  list-style: none;
+  gap: 1.5rem;
 }
 
-.nav-links a {
-  color: white;
+.nav-links li a {
   text-decoration: none;
+  color: #333;
   font-weight: 500;
-  font-size: 1rem;
-  cursor: pointer;
 }
 
+.nav-links li a:hover {
+  color: #FF5252;
+}
+
+/* Hamburger (hidden by default) */
 .hamburger {
   display: none;
-  font-size: 1.8rem;
-  color: #ffc300;
+  flex-direction: column;
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    background-color: #111;
-    position: absolute;
-    top: 70px;
-    right: 0;
-    width: 100%;
-    padding: 20px;
-    gap: 15px;
-  }
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  margin: 4px 0;
+  background: #333;
+  transition: 0.3s;
+}
 
-  .nav-links.active {
+/* MOBILE */
+@media screen and (max-width: 768px) {
+  .hamburger {
     display: flex;
   }
-
-  .hamburger {
-    display: block;
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
+  }
+  .nav-links.active {
+    max-height: 500px; /* enough to show all links */
+  }
+  .nav-links li {
+    margin: 1rem 0;
   }
 }
