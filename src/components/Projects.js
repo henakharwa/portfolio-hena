@@ -6,7 +6,7 @@ const projects = [
     title: 'AI - Based Stock Market Prediction System',
     description: 'A unified investment platform that combines historical price data, real-time news and social-media sentiment powered by LSTM forecasts and NLP analysis—to deliver actionable, data-driven insights for smarter trading decisions.',
     tech: ['React', 'Node.js', 'Python','LLMs','Deep Learning','Pytorch'], // replace as needed
-    github: 'https://github.com/yourusername/project1',
+    github: 'https://github.com/henakharwa/AI-Powered-Stock-Recommendation-and-Sentiment-Analysis-Dashboard',
     // image: '/assets/project 1.png' // add image path in public/assets/
   },
   {

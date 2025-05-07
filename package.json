@@ -1,9 +1,8 @@
-"homepage": "https://henakharwa.github.io/portfolio-hena"
-
 {
   "name": "portfolio-frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://henakharwa.github.io/portfolio-hena",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/dom": "^10.4.0",
@@ -14,7 +13,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
