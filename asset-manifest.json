@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio-hena/static/css/main.10ab99f6.chunk.css",
-    "main.js": "/portfolio-hena/static/js/main.8b937a02.chunk.js",
-    "main.js.map": "/portfolio-hena/static/js/main.8b937a02.chunk.js.map",
-    "runtime~main.js": "/portfolio-hena/static/js/runtime~main.cdcb9b4c.js",
-    "runtime~main.js.map": "/portfolio-hena/static/js/runtime~main.cdcb9b4c.js.map",
-    "static/js/2.3f05679c.chunk.js": "/portfolio-hena/static/js/2.3f05679c.chunk.js",
-    "static/js/2.3f05679c.chunk.js.map": "/portfolio-hena/static/js/2.3f05679c.chunk.js.map",
-    "static/js/3.69ba5426.chunk.js": "/portfolio-hena/static/js/3.69ba5426.chunk.js",
-    "static/js/3.69ba5426.chunk.js.map": "/portfolio-hena/static/js/3.69ba5426.chunk.js.map",
+    "main.css": "/portfolio-hena/static/css/main.0fa12f92.css",
+    "main.js": "/portfolio-hena/static/js/main.81cedabd.js",
+    "static/js/453.4a91d8c7.chunk.js": "/portfolio-hena/static/js/453.4a91d8c7.chunk.js",
+    "static/media/charusat.png": "/portfolio-hena/static/media/charusat.e52dd0f8012aca86c109.png",
+    "static/media/Hena_Kharwa_Resume.pdf": "/portfolio-hena/static/media/Hena_Kharwa_Resume.b040899547c69a991bc4.pdf",
+    "static/media/enlighten.png": "/portfolio-hena/static/media/enlighten.0bc6e045157db7694f91.png",
+    "static/media/dhyey.png": "/portfolio-hena/static/media/dhyey.6254dc8723a287e640e0.png",
     "index.html": "/portfolio-hena/index.html",
-    "precache-manifest.5a0da8bd0d88a8cc0aec14945d065ac4.js": "/portfolio-hena/precache-manifest.5a0da8bd0d88a8cc0aec14945d065ac4.js",
-    "service-worker.js": "/portfolio-hena/service-worker.js",
-    "static/css/main.10ab99f6.chunk.css.map": "/portfolio-hena/static/css/main.10ab99f6.chunk.css.map",
-    "static/media/Hena_Kharwa_Resume.pdf": "/portfolio-hena/static/media/Hena_Kharwa_Resume.406aa619.pdf",
-    "static/media/charusat.png": "/portfolio-hena/static/media/charusat.278d883e.png",
-    "static/media/dhyey.png": "/portfolio-hena/static/media/dhyey.f1040b4b.png",
-    "static/media/enlighten.png": "/portfolio-hena/static/media/enlighten.65eea6c6.png"
-  }
+    "main.0fa12f92.css.map": "/portfolio-hena/static/css/main.0fa12f92.css.map",
+    "main.81cedabd.js.map": "/portfolio-hena/static/js/main.81cedabd.js.map",
+    "453.4a91d8c7.chunk.js.map": "/portfolio-hena/static/js/453.4a91d8c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fa12f92.css",
+    "static/js/main.81cedabd.js"
+  ]
 }
